@@ -1,0 +1,51 @@
+@font-face {
+   font-family: 'Noto Sans JP';
+   font-style: normal;
+   font-weight: 300;
+   src: url(//fonts.gstatic.com/ea/notosansjp/v1/NotoSansJP-DemiLight.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/notosansjp/v1/NotoSansJP-DemiLight.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/notosansjp/v1/NotoSansJP-DemiLight.otf) format('opentype');
+}
+body, .reveal{
+  font-family: 'Noto Sans JP', "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  color: #333;
+}
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6{
+  font-family: 'Noto Sans JP', "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  color: #333;
+}
+
+.reveal h1{
+  font-size: 207%;
+  margin-bottom: 4rem;
+}
+
+.reveal h2{
+  font-size: 144%;
+  margin-bottom: 4rem;
+}
+
+.reveal li{
+  line-height: 1.75;
+}
+
+.reveal section img{
+  border-style: none;
+  box-shadow: none;
+  margin-top: 2rem;
+}
+.reveal pre{
+  width: 100%;
+}
+
+.reveal pre + p{
+  margin-top: 4rem;
+}
+
+.reveal pre code{
+  padding: 1.5rem;
+}
+
+.reveal table{
+  font-size: 88%;
+}
